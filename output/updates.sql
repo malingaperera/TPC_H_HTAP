@@ -1,0 +1,1300 @@
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 414534.20
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '1-URGENT'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'P0jNw5wBPh1nBy40j7lw1M3 x3Pkh4z5'
+    WHERE [O_ORDERKEY] = 195;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'DELIVER IN PERSON'
+      ,[L_SHIPMODE] = 'AIR'
+      ,[L_COMMENT] = 'lOjBOCLy7n03QhRl'
+    WHERE [L_ORDERKEY] = 195 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 580347.88
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '4-NOT SPECIFIED'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'kM11wBB164QOi4znLk0Q'
+    WHERE [O_ORDERKEY] = 196;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'TAKE BACK RETURN'
+      ,[L_SHIPMODE] = 'TRUCK'
+      ,[L_COMMENT] = '0zgggOnz2m'
+    WHERE [L_ORDERKEY] = 196 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 414534.20
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '4-NOT SPECIFIED'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'N4PjB1S5x2Bz72AQin wPw6m6Sy xmgBglSxyxilNA37 nMwwM'
+    WHERE [O_ORDERKEY] = 197;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'TAKE BACK RETURN'
+      ,[L_SHIPMODE] = 'RAIL'
+      ,[L_COMMENT] = 'yw4h3zkMzgQ67Am5wB6 42gxB'
+    WHERE [L_ORDERKEY] = 197 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 497441.04
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '3-MEDIUM'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = '4lkRinBOy43whQg1gOR2R1M4N3 502B5MxNwCB2N2ACz1glMP6BnBky'
+    WHERE [O_ORDERKEY] = 198;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'NONE'
+      ,[L_SHIPMODE] = 'SHIP'
+      ,[L_COMMENT] = 'LlgiQxny6jzPhMCMhy4kAyMj13Cwnw3hzPQ'
+    WHERE [L_ORDERKEY] = 198 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 580347.88
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '1-URGENT'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = '5ml65M24lgMh4N036xykNMCl5z'
+    WHERE [O_ORDERKEY] = 199;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'TAKE BACK RETURN'
+      ,[L_SHIPMODE] = 'SHIP'
+      ,[L_COMMENT] = 'M6MkRgk6 Pjm nPjPg2hm3wkSCxBAl3CgRm5'
+    WHERE [L_ORDERKEY] = 199 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 331627.36
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '3-MEDIUM'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = ' SMz70l0mQ yzlO6SxwmzO1hh h4M6x7jNSPyiNBzORM1xx3Qx3lPwwBj06SM'
+    WHERE [O_ORDERKEY] = 224;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'DELIVER IN PERSON'
+      ,[L_SHIPMODE] = 'MAIL'
+      ,[L_COMMENT] = 'j2Bk4ihz0M3xABP gSNhQ'
+    WHERE [L_ORDERKEY] = 224 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 331627.36
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '3-MEDIUM'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'OzmlgjPQ Lk7zRwyi7g235C336nN x4C3lLRLnkSOnhxCSnPMi0g w5z0 7gh2wyyN3h32O5nAk1'
+    WHERE [O_ORDERKEY] = 225;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'NONE'
+      ,[L_SHIPMODE] = 'AIR'
+      ,[L_COMMENT] = '3m70yiN414Lm P'
+    WHERE [L_ORDERKEY] = 225 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 82906.84
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '1-URGENT'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'iA gk7LA4AA4iC5Bl N3xCMhQ5NQx x3C'
+    WHERE [O_ORDERKEY] = 226;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'NONE'
+      ,[L_SHIPMODE] = 'RAIL'
+      ,[L_COMMENT] = '3NQijyjR2Bn5jLmn3hgOSSR'
+    WHERE [L_ORDERKEY] = 226 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 331627.36
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '4-NOT SPECIFIED'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = '5w352MBLOQ5OCNgk7Px2wk3Qyxl7hOLnLRjx5SBB1xQ CMjw6gSRhkNiR7Rwxi2l6w3mikQj5Si'
+    WHERE [O_ORDERKEY] = 227;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'DELIVER IN PERSON'
+      ,[L_SHIPMODE] = 'AIR'
+      ,[L_COMMENT] = '17PwQm4Q12 R5nBNk6zN3L0wLiRkOPA6A0j'
+    WHERE [L_ORDERKEY] = 227 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 165813.68
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '3-MEDIUM'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'Aij B37OQOR0NhyjQLk'
+    WHERE [O_ORDERKEY] = 228;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'COLLECT COD'
+      ,[L_SHIPMODE] = 'REG AIR'
+      ,[L_COMMENT] = ' Mx2kC4x1QO4i1Cg2m7j5'
+    WHERE [L_ORDERKEY] = 228 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 580347.88
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '3-MEDIUM'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = '0CMR0B nmA4Q70l4Shx0kR3Nj1 nx O7015MAO62jLL2yh07nhO2x1MCNLij0Mzzh1w4jyOzhO'
+    WHERE [O_ORDERKEY] = 229;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'TAKE BACK RETURN'
+      ,[L_SHIPMODE] = 'REG AIR'
+      ,[L_COMMENT] = 'Ai3RzzAj7w23PR Q7wmB30ijACA1knLN53'
+    WHERE [L_ORDERKEY] = 229 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 165813.68
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '3-MEDIUM'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'Cj0Qji4kgiiN4CNgBgiOO62mQnA6OxMBiRC165mL3m714NN C0hz7k'
+    WHERE [O_ORDERKEY] = 230;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'COLLECT COD'
+      ,[L_SHIPMODE] = 'FOB'
+      ,[L_COMMENT] = '36h0hAyyRQS27xNiBS05557m0jmCy4j7ALOCyPO7S1'
+    WHERE [L_ORDERKEY] = 230 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 165813.68
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '4-NOT SPECIFIED'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'hAhm6y6Bg PRhnS7ABzSNP51k7mQl3hQ22P7L2zlzPkkO1RwkS3PRxMAnz70lk6Cly'
+    WHERE [O_ORDERKEY] = 231;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'NONE'
+      ,[L_SHIPMODE] = 'REG AIR'
+      ,[L_COMMENT] = 'i37m10wyllnQ5A 10Q3mh'
+    WHERE [L_ORDERKEY] = 231 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 82906.84
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '3-MEDIUM'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = '53wLPy70whL765MMxLzmQC5R0S5hnMg5N1lj6mPk'
+    WHERE [O_ORDERKEY] = 256;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'NONE'
+      ,[L_SHIPMODE] = 'SHIP'
+      ,[L_COMMENT] = 'wxLmmn25m30NxAjAS52 kkNwSnLiR2xClCPALMlOLC'
+    WHERE [L_ORDERKEY] = 256 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 165813.68
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '2-HIGH'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'OzP2kCQRhBAhmgj0Qm1nxw2w66Mh3QLgwPQCiAPjPAANzMQm6C5PL'
+    WHERE [O_ORDERKEY] = 257;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'TAKE BACK RETURN'
+      ,[L_SHIPMODE] = 'AIR'
+      ,[L_COMMENT] = 'RgNQygmQnOCmOghLQjm34'
+    WHERE [L_ORDERKEY] = 257 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 497441.04
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '4-NOT SPECIFIED'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'm46xCL Mx M0xxx6NCh1x2wSCSRzzQngj2zz1y6B5hLBmjwP5jiznLi7 j6Nl2ALRjChC71QLgxRni'
+    WHERE [O_ORDERKEY] = 258;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'NONE'
+      ,[L_SHIPMODE] = 'TRUCK'
+      ,[L_COMMENT] = 'ghN1Sjz2hz3w2Q7BLw4N OznS'
+    WHERE [L_ORDERKEY] = 258 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 414534.20
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '5-LOW'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = '1wSLkC2AO5OwOh5LLnjkRA5jM'
+    WHERE [O_ORDERKEY] = 259;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'NONE'
+      ,[L_SHIPMODE] = 'SHIP'
+      ,[L_COMMENT] = 'Qwz030RQikMl4j5'
+    WHERE [L_ORDERKEY] = 259 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 497441.04
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '5-LOW'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'BzjQBQhQLhh36g khgOnhhB62xQm 72BwRQ53gS36z3Li5AxwnziiwSAkML5n'
+    WHERE [O_ORDERKEY] = 260;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'DELIVER IN PERSON'
+      ,[L_SHIPMODE] = 'TRUCK'
+      ,[L_COMMENT] = 'A55yy50BOPx7SL5mlwwLLmg lNxgh5P5'
+    WHERE [L_ORDERKEY] = 260 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 331627.36
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '3-MEDIUM'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = '5j3i3wRl57SiAOhS4hSAl7wOyn1Sn35 njCzCgN7Mhgn012O1MmCP07NiCMwz0PQMy476g Czn'
+    WHERE [O_ORDERKEY] = 261;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'DELIVER IN PERSON'
+      ,[L_SHIPMODE] = 'MAIL'
+      ,[L_COMMENT] = 'kA4xgyNRjlgxAhR6i4yl5nnwOj'
+    WHERE [L_ORDERKEY] = 261 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 248720.52
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '2-HIGH'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = '5wAPSQLSMwQn241zzOSg4'
+    WHERE [O_ORDERKEY] = 262;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'NONE'
+      ,[L_SHIPMODE] = 'AIR'
+      ,[L_COMMENT] = 'm54SC O6RNlA4y  2 xC'
+    WHERE [L_ORDERKEY] = 262 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 497441.04
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '5-LOW'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'AjjnznCMO1z3x3MgC0jOhQQB5k0m3jhA303MmiNh4  03466z3B5M26w1RR6 lN'
+    WHERE [O_ORDERKEY] = 263;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'COLLECT COD'
+      ,[L_SHIPMODE] = 'SHIP'
+      ,[L_COMMENT] = 'Cg3nlRn3CBxBnjN gL'
+    WHERE [L_ORDERKEY] = 263 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 165813.68
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '1-URGENT'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'Cm1wi RmO3 B 7hB1wlg5Qzyn2BPz5wkOmj2Rm5niwj3QyQi 4NOP3LmzPRl7l5zCSz'
+    WHERE [O_ORDERKEY] = 288;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'TAKE BACK RETURN'
+      ,[L_SHIPMODE] = 'AIR'
+      ,[L_COMMENT] = 'ynS2wBAk7m62N QR1nL6LmggR 0k50MCj1wg0A'
+    WHERE [L_ORDERKEY] = 288 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 497441.04
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '1-URGENT'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = '7Mm BMMBC25Q165M R2NwjAy00zkjNk1whwNNCkxwmNz4xwzk7yNwhCQ0wilz07'
+    WHERE [O_ORDERKEY] = 289;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'COLLECT COD'
+      ,[L_SHIPMODE] = 'RAIL'
+      ,[L_COMMENT] = 'wghA60mC RN0h5'
+    WHERE [L_ORDERKEY] = 289 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 497441.04
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '3-MEDIUM'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'j 6lzmwL5kkkCA Phi6zPLzyP4QPR'
+    WHERE [O_ORDERKEY] = 290;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'COLLECT COD'
+      ,[L_SHIPMODE] = 'SHIP'
+      ,[L_COMMENT] = 'jgwyQ 1R4L Mxw0PykNOxxyM'
+    WHERE [L_ORDERKEY] = 290 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 248720.52
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '4-NOT SPECIFIED'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'QR 6nMhSL 6Ln4kyllM7wgPNx7Cz71PBBMkANShB5B'
+    WHERE [O_ORDERKEY] = 291;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'DELIVER IN PERSON'
+      ,[L_SHIPMODE] = 'REG AIR'
+      ,[L_COMMENT] = 'MkBxn5Q2LAw6Lz4hA4Om5Mwhz7yy1ALm1'
+    WHERE [L_ORDERKEY] = 291 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 580347.88
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '1-URGENT'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'yk6gmnnA4m1LARzA62 1AgnQ2kx4QhRMPylxMRC5lmR1mS3R0LRM26j2'
+    WHERE [O_ORDERKEY] = 292;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'TAKE BACK RETURN'
+      ,[L_SHIPMODE] = 'RAIL'
+      ,[L_COMMENT] = '1mO2NykiB36R lO'
+    WHERE [L_ORDERKEY] = 292 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 414534.20
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '4-NOT SPECIFIED'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'wnMM1j6CgmQ664 P3wn L0mNLBzSyxx6hgxLBg15n021OPN171wmg1iL3B2xCPL51QBk5mj4zP'
+    WHERE [O_ORDERKEY] = 293;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'DELIVER IN PERSON'
+      ,[L_SHIPMODE] = 'AIR'
+      ,[L_COMMENT] = 'y2B5z7lQx7ji6l66NnO CNL3C2y7gjih43B 2x 54'
+    WHERE [L_ORDERKEY] = 293 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 414534.20
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '2-HIGH'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'OjLmngz2RBBP1Biz7NwAi20nl3zzghj6NSSAn0'
+    WHERE [O_ORDERKEY] = 294;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'NONE'
+      ,[L_SHIPMODE] = 'RAIL'
+      ,[L_COMMENT] = ' QS4lMlnMj5h1lmSynl3w6lOwwNQy'
+    WHERE [L_ORDERKEY] = 294 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 497441.04
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '4-NOT SPECIFIED'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = '5niz7NRwyLxhnLgki6liCB0jLkwOLLMR0mlkz'
+    WHERE [O_ORDERKEY] = 295;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'COLLECT COD'
+      ,[L_SHIPMODE] = 'FOB'
+      ,[L_COMMENT] = 'OS7xzN Ai4S31n6x M4k LlmNP'
+    WHERE [L_ORDERKEY] = 295 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 82906.84
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '4-NOT SPECIFIED'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = '67Mi3nR7A3kmiwRhjxy5g'
+    WHERE [O_ORDERKEY] = 320;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'TAKE BACK RETURN'
+      ,[L_SHIPMODE] = 'TRUCK'
+      ,[L_COMMENT] = 'L1g7C2zhNlA0O2j l6ChNBk'
+    WHERE [L_ORDERKEY] = 320 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 414534.20
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '5-LOW'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = '5Py5AhjCi07414MCAPwB2M'
+    WHERE [O_ORDERKEY] = 321;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'NONE'
+      ,[L_SHIPMODE] = 'FOB'
+      ,[L_COMMENT] = '0kNjxiinMSmm5wi13gyQQR'
+    WHERE [L_ORDERKEY] = 321 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 248720.52
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '5-LOW'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'wOyALj1N3 POmizNzmh2Nl2O7Bih15SPAzgLy53O QQNgngLL4Bj1BLRg0x0QnB4j'
+    WHERE [O_ORDERKEY] = 322;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'TAKE BACK RETURN'
+      ,[L_SHIPMODE] = 'MAIL'
+      ,[L_COMMENT] = 'glxg7MAy6hNOSOyBj'
+    WHERE [L_ORDERKEY] = 322 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 165813.68
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '5-LOW'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = '6my1116C70ONggkLiw3w0SOlLMLkOgSkkn w7mwQP31Qm3yy2N4AiNLNzjiPi47O0zj2NO'
+    WHERE [O_ORDERKEY] = 323;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'NONE'
+      ,[L_SHIPMODE] = 'RAIL'
+      ,[L_COMMENT] = 'iLOL O31C5ijQkyOgLM1kRxBhQjNNhxh106gCQ'
+    WHERE [L_ORDERKEY] = 323 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 580347.88
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '5-LOW'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'jSyk20ljPR0li5SzinQylBPz1A1kS6Bml4l422hR2i4i0lQ3OQ03Q12'
+    WHERE [O_ORDERKEY] = 324;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'DELIVER IN PERSON'
+      ,[L_SHIPMODE] = 'TRUCK'
+      ,[L_COMMENT] = '6LQ62n1nNnMM71LlkP'
+    WHERE [L_ORDERKEY] = 324 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 414534.20
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '2-HIGH'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'j2CO7L1xg227kCwB27wlOj4CMSwnQ2SS2nyR771wAMPQO2jP3l57zOil5'
+    WHERE [O_ORDERKEY] = 325;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'COLLECT COD'
+      ,[L_SHIPMODE] = 'SHIP'
+      ,[L_COMMENT] = '5SB3lNmOnPS6S04AiwSNL4'
+    WHERE [L_ORDERKEY] = 325 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 414534.20
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '4-NOT SPECIFIED'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'nyL7OhP3PCLyhmgC6BM14xNilwiSP6mk6MNg4CNOix2MCg6Qyg'
+    WHERE [O_ORDERKEY] = 326;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'COLLECT COD'
+      ,[L_SHIPMODE] = 'RAIL'
+      ,[L_COMMENT] = 'PSM4gng2jLM jA3ihgCBRmn'
+    WHERE [L_ORDERKEY] = 326 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 82906.84
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '2-HIGH'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'xOOSxBMk5SSx20Ly67g7igmigm542SRR4zkNNyml6jjLwA1j1266wzn zPy B7hL PhBA5y76kyxM'
+    WHERE [O_ORDERKEY] = 327;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'DELIVER IN PERSON'
+      ,[L_SHIPMODE] = 'FOB'
+      ,[L_COMMENT] = 'yP4BRzOilR52QQhk5m7AC42A4ixkk6MP66g0m'
+    WHERE [L_ORDERKEY] = 327 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 331627.36
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '5-LOW'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'Axyy1N01BzM4x0QlRSOLmnN7OSMBL'
+    WHERE [O_ORDERKEY] = 352;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'TAKE BACK RETURN'
+      ,[L_SHIPMODE] = 'RAIL'
+      ,[L_COMMENT] = 'NOOilC 2 Rh '
+    WHERE [L_ORDERKEY] = 352 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 580347.88
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '4-NOT SPECIFIED'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'hnNNR2CwlxMLSjLOQQ50RlhOmPjR33N41znRgLPN'
+    WHERE [O_ORDERKEY] = 353;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'COLLECT COD'
+      ,[L_SHIPMODE] = 'MAIL'
+      ,[L_COMMENT] = 'OzRnNAOgMlC4z5Mk k3R2MRjLSl 3zhzCPN5nRR'
+    WHERE [L_ORDERKEY] = 353 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 580347.88
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '5-LOW'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'B1M0P07Cg366P6PRy2g2lhQ NP66CP2kN5P2315xlj26h7l1SPz26Rhx3j2RzNShlQi7wmi4jP'
+    WHERE [O_ORDERKEY] = 354;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'DELIVER IN PERSON'
+      ,[L_SHIPMODE] = 'FOB'
+      ,[L_COMMENT] = 'MR2MROyO 1kP2N17Awy'
+    WHERE [L_ORDERKEY] = 354 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 248720.52
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '2-HIGH'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'RMinkw7kM1wALNy03PlL0yQ31gNCm320BS2nwgk23'
+    WHERE [O_ORDERKEY] = 355;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'DELIVER IN PERSON'
+      ,[L_SHIPMODE] = 'REG AIR'
+      ,[L_COMMENT] = '5PA72Mm5j4hj0Mgjm5k34w3mw3SLm545Oh27 5N'
+    WHERE [L_ORDERKEY] = 355 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 580347.88
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '1-URGENT'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'S1ylSwAzPS 7gOwMOjj1N5m 3n1O5RSCSC5MhzLlkRwhBQ6 yBnhlA'
+    WHERE [O_ORDERKEY] = 356;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'NONE'
+      ,[L_SHIPMODE] = 'MAIL'
+      ,[L_COMMENT] = 'ixgwRlkN26Rkx4OPBw012l N h2iLP0hCQ0Ri'
+    WHERE [L_ORDERKEY] = 356 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 82906.84
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '4-NOT SPECIFIED'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'hAO Rh5QlwRC6QiPyjSSQMgiNjBA 6kinj0x lxi APQhgC'
+    WHERE [O_ORDERKEY] = 357;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'TAKE BACK RETURN'
+      ,[L_SHIPMODE] = 'RAIL'
+      ,[L_COMMENT] = '170hkMN1xlgjM2yjR2'
+    WHERE [L_ORDERKEY] = 357 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 497441.04
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '1-URGENT'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'RjjnM3Mwgm5y752hlC2kj3nk06ARij7 jkP1PNzmj743'
+    WHERE [O_ORDERKEY] = 358;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'NONE'
+      ,[L_SHIPMODE] = 'AIR'
+      ,[L_COMMENT] = '4R7CCz7j3x5Rkym0Ohx5SRPQO '
+    WHERE [L_ORDERKEY] = 358 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 580347.88
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '1-URGENT'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'lOggPR  5gkOOP756jlj'
+    WHERE [O_ORDERKEY] = 359;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'TAKE BACK RETURN'
+      ,[L_SHIPMODE] = 'FOB'
+      ,[L_COMMENT] = 'yhMOxnzghyB CNy7LiRi4N6z0'
+    WHERE [L_ORDERKEY] = 359 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 580347.88
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '2-HIGH'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'n6h11hyB7lQC2NSSORCz4zM0h2h41OQmiS1gR7B21w1LmShQ6RMO52'
+    WHERE [O_ORDERKEY] = 384;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'TAKE BACK RETURN'
+      ,[L_SHIPMODE] = 'SHIP'
+      ,[L_COMMENT] = 'RnC1Sn5Nz130x3N7CS i4P1mx6gO3BCCnQ0CRMN'
+    WHERE [L_ORDERKEY] = 384 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 82906.84
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '4-NOT SPECIFIED'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'RABwyj3jz07igMySAgM2S5Sk32Sn7jRORg3Sy'
+    WHERE [O_ORDERKEY] = 385;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'COLLECT COD'
+      ,[L_SHIPMODE] = 'AIR'
+      ,[L_COMMENT] = 'z1SzP74AO2C1MSnhjizy7mhgMk'
+    WHERE [L_ORDERKEY] = 385 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 82906.84
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '5-LOW'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'x1j6P7Mn3O0jh3jOQw1mR2CnC5Qg32gQlhnkzAlL3ONL lBAM'
+    WHERE [O_ORDERKEY] = 386;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'COLLECT COD'
+      ,[L_SHIPMODE] = 'RAIL'
+      ,[L_COMMENT] = '62xz4014L2jBmjM xy365zCL01mRCQ2Qy1'
+    WHERE [L_ORDERKEY] = 386 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 497441.04
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '2-HIGH'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'Bmy0lRP6jxw3QAwM4n47nOiPyS2L3x2P1kM5wPkjQywQ61hSQ50j6A4OngMynj3g3hA P'
+    WHERE [O_ORDERKEY] = 387;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'TAKE BACK RETURN'
+      ,[L_SHIPMODE] = 'RAIL'
+      ,[L_COMMENT] = 'x0AwjRO14BAxQSzQ6Sxkg 17Qxkk Snl4A7PkhzAk'
+    WHERE [L_ORDERKEY] = 387 and [L_LINENUMBER] = 1;
+
+UPDATE [dbo].[ORDERS]
+    SET [O_CUSTKEY] = 736463
+      ,[O_ORDERSTATUS] = 'O'
+      ,[O_TOTALPRICE] = 414534.20
+      ,[O_ORDERDATE] = '1995-08-09'
+      ,[O_ORDERPRIORITY] = '2-HIGH'
+      ,[O_CLERK] = 'Clerk#000006644'
+      ,[O_SHIPPRIORITY] = 0
+      ,[O_COMMENT] = 'P7AOhO1iN0yz 1yBQgPgNQl7B4AjLhQmwiNixQ7i7wA lx72xjS4jwlwQLBAxQ'
+    WHERE [O_ORDERKEY] = 388;
+
+UPDATE [dbo].[LINEITEM]
+   SET [L_QUANTITY] = 48
+      ,[L_EXTENDEDPRICE] = 83845.92
+      ,[L_DISCOUNT] = 0.04
+      ,[L_TAX] = 0.03
+      ,[L_RETURNFLAG] = 'N'
+      ,[L_LINESTATUS] = 'O'
+      ,[L_SHIPDATE] = '1995-11-01'
+      ,[L_COMMITDATE] = '1995-11-01'
+      ,[L_RECEIPTDATE] = '1995-11-21'
+      ,[L_SHIPINSTRUCT] = 'NONE'
+      ,[L_SHIPMODE] = 'RAIL'
+      ,[L_COMMENT] = 'Ljk1OwPBMS3ShyP y4Azm3z hCglilB3i51NgSmwRR'
+    WHERE [L_ORDERKEY] = 388 and [L_LINENUMBER] = 1;
+
