@@ -15,7 +15,7 @@ Here we will discuss how you can generate INSERT, DELETE and UPDATE queries for 
 
 datagen.exe can be used to generate data required for the queries
 
-1. Generating seeds
+1. Generating seeds (remember to use same scale factor as your database -s)
 `./Debug/dbgen -v -O s -s 10`
 2. Data generation
 `./Debug/dbgen -v -U 2 -s 10`
