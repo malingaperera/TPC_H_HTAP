@@ -24,3 +24,7 @@ datagen.exe can be used to generate data required for the queries
 5. Edit the input and output folder paths if needed.
 6. Run `tpc_h_htap_qgen.py` 
 
+### What to update?
+
+Picking the rows that need to be updated can depend on the application. In this implementation we use delete_id list to
+pick the IDs that need to get updated. However, you can simply change this to whatever you need.

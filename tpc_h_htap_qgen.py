@@ -112,7 +112,8 @@ def get_updates():
     """
     with open(output_folder + "updates.sql", file_open_mood) as o_file:
         for u_id in range(updates_per_table):
-            delete_id = deletes_raw[inserts_per_table + u_id].split('\n')[0]
+            # what to update?, in my case I'm updating the next set of rows to delete
+            delete_id = deletes_raw[deletes_per_table + u_id].split('\n')[0]
 
             params = inserts_raw["order"][inserts_per_table + u_id].split('|')
             params[0] = delete_id
