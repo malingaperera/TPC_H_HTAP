@@ -19,73 +19,18 @@ updates_per_table = 50
 deletes_raw = []
 inserts_raw = {"order": [], "lineitem": []}
 
-
-delete_files = os.listdir(query_folder + 'deletes\\')
-li_insert_files = [f for f in os.listdir(query_folder + 'inserts\\') if f.startswith('lineitem')]
-o_insert_files = [f for f in os.listdir(query_folder + 'inserts\\') if f.startswith('order')]
-
-# We won't read all the files, but only enough data points to generate the defined number of queries
-current_file = 0
-while len(deletes_raw) < deletes_per_table:
-    with open( query_folder + 'deletes\\' + delete_files[current_file]) as f:
-        deletes_raw.extend(f.readlines())
-    current_file += 1
-
-current_file = 0
-while len(inserts_raw["order"]) < (inserts_per_table + updates_per_table):
-    with open(query_folder + 'inserts\\' + li_insert_files[current_file]) as f_lineitem, \
-            open(query_folder + 'inserts\\' + o_insert_files[current_file]) as f_order:
-        inserts_raw["lineitem"].extend(f_lineitem.readlines())
-        inserts_raw["order"].extend(f_order.readlines())
-    current_file += 1
-
-
-def get_deletes():
-    """
-    Write the deletes.sql
-
-    We have used SQL server syntax, make sure you change based on your database type.
-    """
-
-    deletes = [
+# We have used SQL server syntax, make sure you change based on your database type.
+deletes = [
         "delete from lineitem where l_orderkey = {};",
         "delete from orders where o_orderkey = {};"
     ]
-    with open(output_folder + "deletes.sql", file_open_mood) as o_file:
-        for d_id in range(deletes_per_table):
-            for q_string in deletes:
-                o_file.write(q_string.format(deletes_raw[d_id].split('\n')[0]))
-                o_file.write('\n')
 
-
-def get_inserts():
-    """
-    Write the inserts.sql
-
-    We have used SQL server syntax, make sure you change based on your database type.
-    """
-    inserts = {
+inserts = {
         "i_1": "insert into orders values ({}, {}, '{}', {}, '{}', '{}', '{}', {}, '{}');",
         "i_2": "insert into lineitem values ({}, {}, {}, {}, {}, {}, {}, {}, '{}', '{}', '{}', '{}', '{}', '{}', '{}', '{}' );"
     }
 
-    with open(output_folder + "inserts.sql", file_open_mood) as o_file:
-        for i_id in range(inserts_per_table):
-            o_file.write(
-                inserts["i_1"].format(*inserts_raw["order"][i_id].split('|')))
-            o_file.write('\n')
-            o_file.write(
-                inserts["i_2"].format(*inserts_raw["lineitem"][i_id].split('|')))
-            o_file.write('\n')
-
-
-def get_updates():
-    """
-    Write the updates.sql
-
-    We have used SQL server syntax, make sure you change based on your database type.
-    """
-    updates = {
+updates = {
         "u_1":
 """UPDATE [dbo].[ORDERS]
     SET [O_CUSTKEY] = {1}
@@ -115,6 +60,56 @@ def get_updates():
     WHERE [L_ORDERKEY] = {0} and [L_LINENUMBER] = 1;
 """
     }
+
+delete_files = os.listdir(query_folder + 'deletes\\')
+li_insert_files = [f for f in os.listdir(query_folder + 'inserts\\') if f.startswith('lineitem')]
+o_insert_files = [f for f in os.listdir(query_folder + 'inserts\\') if f.startswith('order')]
+
+# We won't read all the files, but only enough data points to generate the defined number of queries
+current_file = 0
+while len(deletes_raw) < deletes_per_table:
+    with open( query_folder + 'deletes\\' + delete_files[current_file]) as f:
+        deletes_raw.extend(f.readlines())
+    current_file += 1
+
+current_file = 0
+while len(inserts_raw["order"]) < (inserts_per_table + updates_per_table):
+    with open(query_folder + 'inserts\\' + li_insert_files[current_file]) as f_lineitem, \
+            open(query_folder + 'inserts\\' + o_insert_files[current_file]) as f_order:
+        inserts_raw["lineitem"].extend(f_lineitem.readlines())
+        inserts_raw["order"].extend(f_order.readlines())
+    current_file += 1
+
+
+def get_deletes():
+    """
+    Write the deletes.sql
+    """
+    with open(output_folder + "deletes.sql", file_open_mood) as o_file:
+        for d_id in range(deletes_per_table):
+            for q_string in deletes:
+                o_file.write(q_string.format(deletes_raw[d_id].split('\n')[0]))
+                o_file.write('\n')
+
+
+def get_inserts():
+    """
+    Write the inserts.sql
+    """
+    with open(output_folder + "inserts.sql", file_open_mood) as o_file:
+        for i_id in range(inserts_per_table):
+            o_file.write(
+                inserts["i_1"].format(*inserts_raw["order"][i_id].split('|')))
+            o_file.write('\n')
+            o_file.write(
+                inserts["i_2"].format(*inserts_raw["lineitem"][i_id].split('|')))
+            o_file.write('\n')
+
+
+def get_updates():
+    """
+    Write the updates.sql
+    """
     with open(output_folder + "updates.sql", file_open_mood) as o_file:
         for u_id in range(updates_per_table):
             delete_id = deletes_raw[inserts_per_table + u_id].split('\n')[0]
