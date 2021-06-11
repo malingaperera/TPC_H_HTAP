@@ -20,7 +20,7 @@ datagen.exe can be used to generate data required for the queries
 2. Data generation
 `./Debug/dbgen -v -U 2 -s 10`
 3. Copy the generated files into `tpc_h_data` folder
-4. Edit the SQL syntax in the `tpc_h_htap_qgen.py` (SQL Server is already provided)
+4. Edit the SQL syntax in the `tpc_h_htap_qgen.py` based on your database type (SQL Server is already provided)
 5. Edit the input and output folder paths if needed.
 6. Run `tpc_h_htap_qgen.py` 
 
